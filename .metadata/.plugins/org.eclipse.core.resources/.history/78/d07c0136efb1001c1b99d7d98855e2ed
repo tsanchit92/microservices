@@ -1,0 +1,29 @@
+package store.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
+
+import store.model.ProductItems;
+import store.model.ProductList;
+
+
+@RestController
+public class Controller {
+
+	@Autowired
+	 private WebClient.Builder webclientbuilder;
+	
+	@GetMapping("/getProducts")
+	public List<ProductItems> getProducts()
+	{
+		ProductList prdIt
+		
+		
+		 
+	}
+
+}
